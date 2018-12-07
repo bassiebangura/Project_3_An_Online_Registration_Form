@@ -14,25 +14,25 @@ body {
 
 input[type="text"]:focus
  {
-    border: 1.5px solid #888;
+    border: 1.5px solid hsl(215, 50%, 34%);
 }
 
 input[type="email"]:focus
  {
-    border: 1.5px solid #888;
+    border: 1.5px solid hsl(215, 50%, 34%);
 }
 
 input[type="tel"]:focus
  {
-    border: 1.5px solid #888;
+    border: 1.5px solid hsl(215, 50%, 34%);
 }
 
 select:focus {
-    border: 1.5px solid #888;
+    border: 1.5px solid hsl(215, 50%, 34%);
 }
   
 hr {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid hsl(210, 100%, 56%);
 }
 /*****************************************
             MOBILE VIEW
@@ -43,7 +43,7 @@ hr {
     width: 100%;
     margin: auto;
     text-align: center;
-    background-color:black;
+    background-color: hsl(210, 100%, 56%); /* doger blue */
     color: white;
     padding: 0.15em;
     font-family: 'Orbiton', san-serif;
@@ -54,6 +54,8 @@ form {
     width: 100%;
     margin: 1.75em auto;
     padding: 0 1em;
+    color: hsl(215, 50%, 34%);
+
 } 
 
 .intro, .onlineForm-copyright {
@@ -64,14 +66,17 @@ form {
 .double {
     width: 100%; 
     height: 5px; 
-    border-top: 3px solid #222; 
-    border-bottom: 1px solid #222; 
+    border-top: 3px solid hsl(210, 100%, 56%); 
+    border-bottom: 1px solid hsl(210, 100%, 56%); 
+    margin-bottom: 0.8em;
   }
 
 legend {
-    padding: 0.8em 0;
-    margin-bottom: 0;
+    padding: 0.04em 0.1em;
+    margin-bottom: 0.8em;
     font-size: 1.4em;
+    background-color: hsl(210, 100%, 56%); 
+    border-radius: 5px;
 
 }
 
@@ -125,12 +130,21 @@ label.inlineDisplay {
     display: inline;
 }
 
+.contactInfo {
+    background-color: hsla(240, 29%, 95%, 0.2);
+    border-radius: 5px;
+    border: 1px solid hsla(240, 7%, 43%, 0.2);
+}
+
 
 /****** NewsLetter Fieldset *******/
 .newsLetter__options {
     margin-top: 0;
 }
 
+.newsLetter__legend {
+    background-color: hsl(214, 100%, 75%);
+}
 .newsLetter__textareaLabel {
     padding: 0.5em 0;
 }
@@ -139,6 +153,11 @@ label.inlineDisplay {
     line-height: 1.95em;
     width: 100%;
     padding: 0;
+    background-color: hsla(240, 67%, 98%, 0.5);
+    border-radius: 4px;
+    padding: 0 10px 0 10px;
+    border: 1px solid hsla(240, 7%, 43%, 0.2);
+    margin-bottom: 1.8em;
 }
 
 button {
