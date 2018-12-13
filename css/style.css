@@ -228,6 +228,10 @@ button {
         width: 100%;
     }
 
+    .newsLetter {
+        line-height: 1.6em;
+    }
+
     input[type="text"],
     input[type="email"],
     input[type="number"],
